@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Caveat:wght@400..700&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Kalam:wght@300;400;700&display=swap" rel="stylesheet">
+    <title>Homepage</title>
+  </head>
+  <body>
+    <header>
+      <div class="hamburger" onclick="toggleMenu()">
+        <div>&#9776;</div>
+     </div>
+      <nav>
+          <a href="/Research/research.html" class="nav-el">Research</a>
+          <a href="#cv" class="nav-el">Resume</a>
+          <a href="/Schedule/Schedule.html" class="nav-el">Schedule</a>
+          <a href="/quiz-homepage/quiz-homepage.html" class="nav-el">Quiz</a>
+          <a href="#contact-us" class="nav-el">Contact us</a>
+      </nav>
+  </header>
+    <div id="hero">
+      <video autoplay muted loop>
+        <source src="4K_5.mp4" type="video/mp4">
+      </video>
+      <h2 class="quotes"></h2>
+    </div>
+    <div class="meet-team">
+      <div class="center hidden" id="cv">
+        <h3 class="title">Meet the team!</h3>
+      </div >
+      <section class="articles hidden">
+        <article id="">
+          <div class="article-wrapper">
+            <figure class="center">
+              <img src="elia.png" alt="" />
+            </figure>
+            <div class="article-body">
+              <h2>Elia Rmeih</h2>
+              <p>
+               
+              </p>
+              <a href="/Resume/Elia-Resume.html" class="read-more">
+                See Resume<span class="sr-only"></span>
+                <svg xmlns="http://www.w3.org/2000/svg" class="icon" viewBox="0 0 20 20" fill="currentColor">
+                  <path fill-rule="evenodd" d="M12.293 5.293a1 1 0 011.414 0l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-2.293-2.293a1 1 0 010-1.414z" clip-rule="evenodd" />
+                </svg>
+              </a>
+            </div>
+          </div>
+        </article>
+        <article>
+      
+          <div class="article-wrapper">
+            <figure class="center">
+              <img src="fares avatar.png" alt="" />
+            </figure>
+            <div class="article-body">
+              <h2>Charbel Fares</h2>
+              <p>
+                
+              </p>
+              <a href="/Resume/CharbelFaresResume.html" class="read-more">
+                See Resume <span class="sr-only"></span>
+                <svg xmlns="http://www.w3.org/2000/svg" class="icon" viewBox="0 0 20 20" fill="currentColor">
+                  <path fill-rule="evenodd" d="M12.293 5.293a1 1 0 011.414 0l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-2.293-2.293a1 1 0 010-1.414z" clip-rule="evenodd" />
+                </svg>
+              </a>
+            </div>
+          </div>
+        </article>
+        <article>
+      
+          <div class="article-wrapper">
+            <figure class="center">
+              <img src="RayenAvatar.png" alt="" />
+            </figure>
+            <div class="article-body">
+              <h2>Rayen Bou Assi</h2>
+              <p>
+                
+              </p>
+              <a href="/Resume/Rayen-Resume.html" class="read-more">
+                See Resume<span class="sr-only"></span>
+                <svg xmlns="http://www.w3.org/2000/svg" class="icon" viewBox="0 0 20 20" fill="currentColor">
+                  <path fill-rule="evenodd" d="M12.293 5.293a1 1 0 011.414 0l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-2.293-2.293a1 1 0 010-1.414z" clip-rule="evenodd" />
+                </svg>
+              </a>
+            </div>
+          </div>
+        </article>
+      </section>
+    </div>
+    <div class="projects hidden">
+      <div class="center">
+        <h3 class="title">Projects</h3>
+      </div>
+      <div class="project-container">
+        <h5>Check out "The Simon Game" that we made using JQuery:</h5>
+        <br>
+        <a href="/game/game.html" ><img src="game-img.png" alt="" class="game-btn" height="200px"></a>
+      </div>
+      
+      
+      
+      
+    </div>  
+    <div class="center hidden">
+       
+    </div>
+      
+    
+      
+      <div class="mother-container">
+        <div class="contact-us-container hidden" id="contact-us">
+          <div class="center">
+            <h4 class="title">Contact us:</h4>
+          </div>
+          
+          <form action="contactusAction.php" method="post">
+            <label for="first-name" class="form-subtitle">First name:</label>
+            <br>
+            <input type="text" name="first-name" placeholder="Enter your first name" class="form-input">
+            <br>
+            <br>
+            <label for="last-name" class="form-subtitle">Last name:</label>
+            <br>
+            <input type="text" name="last-name" placeholder="Enter your last name" class="form-input">
+            <br>
+            <br>
+            <label for="user-email" class="form-subtitle">Email:</label>
+            <br>
+            <input type="email" name="user-email" placeholder="for@example.com" class="form-input">
+            <br>
+            <br>
+            <label for="message" class="form-subtitle">Message:</label>
+            <br>
+            <textarea name="message" id="message" cols="60" rows="10"></textarea>
+            <br>
+            <div class="center">  
+              <button type="submit" class="submit-btn">Submit</button>
+            </div>
+          </form>
+          
+          
+          
+
+        </div>
+
+      </div>
+      <hr class="outer-hr">
+      <footer>
+        <div class="middle">
+          <h4>Socials:</h4>
+        </div>
+        <div class="middle">
+          <a href="https://www.instagram.com/_charbelfares/"><img src="insta-ico.png" alt="instagram icon" class="ic"></a>
+          <a href="nkedin.com/in/rayen-bou-assi-ba8739300/"><img src="linkedin-ico.png" alt="linkedin icon" class="ic"></a>
+          
+        </div>
+        
+        <div class="center">
+          <hr class="inner-hr">
+        </div>
+        
+        <div class="center">
+         <h4 class="copy-text"> &copy;2024 All Rights Reserved</h4>
+        </div>
+        
+            
+     </footer>
+    <script src="app.js"></script>
+  </body>
+</html>

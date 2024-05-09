@@ -1,0 +1,79 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0px;
+    padding: 20px;
+    background-color: #333;
+    color: #f5f5f5;
+  }
+
+  h1 {
+    font-size: 24px;
+    margin-bottom: 20px;
+    text-align: middle;
+  }
+
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    background-image: url("infographics.jpg");
+    background-repeat: no-repeat;
+  }
+
+  th, td {
+    padding: 20px;
+    text-align: middle;
+    border-bottom: 1px solid #fff;
+
+  }
+
+  th {
+    background-color: #3498db;
+    color: white;
+    text-align: middle;
+  }
+
+  td {
+    position: relative;
+    text-align: center;
+    width: 100px;
+  }
+
+  .class-box {
+    width: 70%; /* Adjusted width for better fit */
+    padding: 10px; /* Increased padding for better spacing */
+    border-radius: 7px;
+    color: white;
+    margin: 0 auto;
+    position: absolute;
+  }
+  .class-title {
+    font-weight: bold;
+    margin-bottom: 5px;
+    font-size: 15px;
+    text-align: center;
+  }
+  .class-title:hover {
+      color: black;
+      text-decoration: underline;
+  }
+
+  .class-details {
+    font-size: 11px;
+    margin-bottom: 5px;
+  }
+
+  .oop {
+     background-color: #1abc9c; 
+    }
+  .wp {
+     background-color: #3498db;
+     }
+  .dbm {
+     background-color: #9b59b6; 
+  }
+  .top { 
+    background-color: #e67e22; 
+  }
+  .pw {
+     background-color: #2ecc71;
+     }

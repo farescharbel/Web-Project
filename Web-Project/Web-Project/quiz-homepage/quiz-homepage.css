@@ -1,0 +1,52 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@400;700&family=Montserrat:wght@700&display=swap");
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    font-family:"Montserrat", sans-serif ;
+    font-size: large;
+    background-color: #7FB7BE;
+}
+.card-container{
+    width: 80%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 3.5rem;
+
+}
+.card{
+    width: 40%;
+    height: 320px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    
+    text-align: center;
+    
+    transition: 0.3s;
+    border-radius: 25px;
+}
+.card:hover{
+    cursor: pointer;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 6px 16px;
+
+}
+.card1{
+    background-image: url(general-knowledge-questions.png);
+    background-size: cover;
+    background-position: -120px;
+    
+}
+
+.card2{
+    background-image: url(football.jpg);
+    background-size: cover;
+}
+@media (max-width:800px){
+    .card-container{
+        flex-direction: column;
+    }
+    .card{
+        width: 250px;
+    }
+}

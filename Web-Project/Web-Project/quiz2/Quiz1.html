@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Quiz</title>
+<style>
+    body {
+    background-color: #2b2b2b;
+    color: #a9b7c6;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    
+    
+    height: 100vh;
+}
+
+.containerQ {
+    text-align: left;
+    border-radius: 8px;
+    background-color: #3c3f41;
+    padding: 20px;
+    width: 80%;
+    max-width: 800px;
+    margin: auto;
+}
+
+h2 {
+    color: #cc7832;
+    text-align: center;
+}
+
+.question {
+    margin-bottom: 20px;
+}
+
+.question label {
+    display: block;
+    margin-bottom: 10px;
+}
+
+.question input {
+    padding: 10px;
+    width: 100%;
+    max-width: 300px;
+    border-radius: 4px;
+    border: none;
+}
+
+button {
+    display: block;
+    background-color: #cc7832;
+    color: #2b2b2b;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-top: 20px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+    
+      
+    
+
+   
+</style>
+</head>
+<body>
+    
+  <!-- Quiz Section -->
+  <h2>Let's Start</h2>
+  <div class="containerQ">
+    <form id="quizForm" action="checkForm.php" method="post">
+      <!-- Question 1 -->
+      <div class="question">
+        <label for="q1">Question 1: Who has won the most La Liga?</label><br><br>
+        <input type="text" id="q1" name="q1">
+      </div>
+      <!-- Question 2 -->
+      <div class="question">
+        <label for="q2">Question 2: Which Premier League team has the biggest stadium?</label><br><br>
+        <input type="text" id="q2" name="q2">
+      </div>
+      <!-- Question 3 -->
+      <div class="question">
+        <label for="q3">Question 3: Who scored 'The Hand Of God' goal?</label><br><br>
+        <input type="text" id="q3" name="q3">
+      </div>
+      <!-- Question 4 -->
+      <div class="question">
+        <label for="q4">Question 4: Who has the most ballon d'or?</label><br><br>
+        <input type="text" id="q4" name="q4">
+      </div>
+      <!-- Question 5 -->
+      <div class="question">
+        <label for="q5">Question 5: How many seconds can the keeper hold the ball for?</label><br><br>
+        <input type="text" id="q5" name="q5">
+      </div>
+      <!-- Question 6 -->
+      <div class="question">
+        <label for="q6">Question 6: Who won the World Cup in 2010?</label><br><br>
+        <input type="text" id="q6" name="q6">
+      </div>
+      <!-- Question 7 -->
+      <div class="question">
+        <label for="q7">Question 7: Who did Zinedine Zidane Headbutt in the 2006 final?</label><br><br>
+        <input type="text" id="q7" name="q7">
+      </div>
+      <!-- Question 8 -->
+      <div class="question">
+        <label for="q8">Question 8: Which country won the first ever FIFA World Cup in 1930?</label><br><br>
+        <input type="text" id="q8" name="q8">
+      </div>
+      <!-- Question 9 -->
+      <div class="question">
+        <label for="q9">Question 9: Who is the only player to win three European Golden Shoes?</label><br><br>
+        <input type="text" id="q9" name="q9">
+      </div>
+      <!-- Question 10 -->
+      <div class="question">
+        <label for="q10">Question 10: What is the name of the stadium where FC Barcelona plays??</label><br><br>
+        <input type="text" id="q10" name="q10">
+      </div>
+      <button type="submit">Submit</button>
+    </form>
+    <div id="result"></div>
+  </div>
+  
+ 
+  
+  
+  
+  </body>
+</html>
